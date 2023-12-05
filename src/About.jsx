@@ -1,13 +1,13 @@
 export const About = () => {
   return (
-    <main className="About home h-screen w-screen bg-repeat-y">
-      <div className="top-[20%]  w-[50%] p-4 absolute left-[25%]  mr-[25%] text-4xl text-text">
+    <main className="About home  ">
+      <div className="lg:top-[35%] md:top-[20%] sm:top-[20%] lg:w-[50%] md:w-[50%] sm:w-[75%] p-4 absolute lg:md:left-[25%] sm:left-[12.25%] sm:mr-[12.25%] lg:md:mr-[25%] text-4xl text-text">
         <span class="text-primary text-4xl">
           I'm <span className="text-text">Mithun Karthick</span>
           , a full stack developer based in Coimbatore.
           <br />
         </span>
-        <span class="text-text text-2xl leading-9">
+        <span className="text-text text-lg lg:text-xl leading-9">
           Hey there, I'm Mithun, a full stack developer based in Coimbatore with
           a passion for creating seamless and delightful user experiences. I
           especially enjoy working on design operations and systems that help
@@ -16,7 +16,7 @@ export const About = () => {
           portfolio!
           <br />
         </span>
-        <span class="text-primary text-3xl top-12 relative">
+        <span className="text-primary text-3xl top-12 relative">
           Skills
           <br />
           <ul className="flex gap-4">
@@ -62,7 +62,7 @@ export const About = () => {
             </li>
           </ul>
         </span>
-        <span class="text-primary text-3xl top-[8vh] relative">
+        <span className="text-primary text-3xl top-[8vh] relative">
           Get in touch
           <ul className="relative top-4 flex gap-4">
             <li>
