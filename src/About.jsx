@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <main className="About home h-screen w-screen">
+    <main className="About home h-screen w-screen bg-repeat-y">
       <div className="top-[20%]  w-[50%] p-4 absolute left-[25%]  mr-[25%] text-4xl text-text">
         <span class="text-primary text-4xl">
           I'm <span className="text-text">Mithun Karthick</span>
