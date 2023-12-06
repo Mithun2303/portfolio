@@ -62,9 +62,9 @@ export const About = () => {
             </li>
           </ul>
         </span>
-        <span className="text-primary text-3xl top-[8vh] relative">
+        <span className="text-primary text-3xl top-[8vh] mb-[8vh]  relative ">
           Get in touch
-          <ul className="relative top-4 flex gap-4">
+          <ul className="relative top-4 flex gap-4  ">
             <li>
               <a href="https://github.com/Mithun2303">
                 <svg
@@ -102,6 +102,8 @@ export const About = () => {
                 </svg>
               </a>
             </li>
+            <br />
+            <br />
           </ul>
         </span>
       </div>
