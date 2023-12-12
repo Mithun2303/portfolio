@@ -15,7 +15,7 @@ export const Home = () => {
           specialising in
           <br />
         </span>
-        <span className="text-primary">react JS & node JS.</span>
+        <span className="text-primary">react JS & express JS.</span>
       </div>
     </main>
   );
