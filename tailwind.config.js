@@ -14,15 +14,15 @@ export default {
       fontFamily: {
         sans: "'Source Sans 3'",
         poppins: "'Poppins'",
-
+      },
+      dropShadow: {
+        '3xl': '8px 8px 4px #1DB954',
       },
       colors:{
-        primary:"#3498db",
-        secondary:"#e74c3c",
-        text:"#ecf0f1",
-        highlight:"#f39c12",
-        link:"#1abc9c"
+        primary:"#1DB954",
       },
+      transitionProperty:{
+      }
     },
   },
   plugins: [],
