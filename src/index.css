@@ -4,4 +4,118 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
+
+.animation>div>div {
+    display: inline-block;
+}
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+     0% {
+      top: -300px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+
+  @keyframes scaleDown {
+      0% {
+      transform: scale(1);
+    }
+     50% {
+      transform: scale(0.9);
+    }
+     
+     100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans;
+    .main-inner { 
+     position: relative;
+     animation: fade-in 1.5s ease, slide-in 1.2s ease;
+     -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
+      .image-wrapper {
+        flex-basis: 50%; 
+        order: 2;
+        .image-container {
+          overflow: hidden;
+          animation: scaleDown 3s ease 2s ;
+         -webkit-animation: scaleDown 3s ease 2s;
+          img {
+            position: relative;
+           }
+          }
+        }     
+     }
+  }
+
+  .main-inner{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+    
+
 
