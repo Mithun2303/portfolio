@@ -93,29 +93,29 @@ html {
     margin-left: auto;
     margin-right: auto;
     font-family: "Montserrat", sans;
-    .main-inner { 
-     position: relative;
-     animation: fade-in 1.5s ease, slide-in 1.2s ease;
-     -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
-      .image-wrapper {
-        flex-basis: 50%; 
-        order: 2;
-        .image-container {
-          overflow: hidden;
-          animation: scaleDown 3s ease 2s ;
-         -webkit-animation: scaleDown 3s ease 2s;
-          img {
-            position: relative;
-           }
-          }
-        }     
-     }
+    
   }
 
   .main-inner{
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     scroll-snap-stop: always;
+
+    position: relative;
+     animation: fade-in 1.5s ease, slide-in 1.2s ease;
+     -webkit-animation: fade-in 1.5s ease, slide-in 1.2s ease;
   }
     
 
 
+  .image-wrapper {
+    flex-basis: 50%; 
+    order: 2;
+    .image-container {
+      overflow: hidden;
+      animation: scaleDown 3s ease 2s ;
+     -webkit-animation: scaleDown 3s ease 2s;
+      img {
+        position: relative;
+       }
+      }
+    }     
