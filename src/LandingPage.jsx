@@ -6,12 +6,12 @@ export const LandingPage = () => {
   return (
     <main className="main h-fit bg-black">
       <section className="h-[10vh] bg-black flex justify-between px-12 drop-shadow-2xl sticky top-0 z-30">
-        <div className="flex items-center h-full mx-24 ">
-          <h1 className="text-primary text-2xl font-bold">
+        <div className="md:flex md:items-center md:h-full flex md:mx-24 justify-center items-center w-full md:w-fit">
+          <h1 className="text-primary md:text-2xl text-3xl font-bold">
             Welcome!
           </h1>
         </div>
-        <div className="navbar h-full flex mx-24 items-center gap-8">
+        <div className="navbar hidden md:flex md:h-full md:mx-24 md:items-center md:gap-8">
           <div>
             <span className="navbar-text text-xl text-white hover:underline ">
               Home
@@ -35,35 +35,34 @@ export const LandingPage = () => {
         </div>
       </section>
       <div className="main-inner">
-        <section className=" min-h-[90vh] flex flex-row-reverse justify-between transition-mild z-0" id="home">
-          <div className="image-wrapper w-[50%] flex justify-center items-center">
+        <section className=" md:min-h-[90vh] h-[80vh] flex md:flex-row-reverse md:justify-between md:transition-mild z-0" id="home">
+          <div className="image-wrapper md:flex hidden md:w-[50%] md:flex justify-center items-center">
             <div className="image-container">
-              <img src={profile} alt="" className="object-contain h-[90vh] drop-shadow3xl" />
+              <img src={profile} alt="" className=" object-contain h-[90vh] drop-shadow-3xl" />
             </div>
           </div>
-          <div className="w-[50%] text-white flex flex-col justify-center items-center">
+          <div className="md:w-[50%] md:relative md:mt-32 relative -top-20 text-white flex flex-col justify-center items-center">
             <div className="text-center">
               <h1 className="text-4xl my-4">
                 Hola..!
               </h1>
-              <div className="flex gap-x-0 items-center justify-center h-16">
-                <div className="text-5xl font-bold  overflow-hidden felx items-center">
+              <div className="md:flex gap-x-0 items-center justify-center h-16">
+                <div className="text-5xl font-bold  overflow-hidden  items-center">
                   <span>
                     I'm
                   </span>
                 </div>
-                <section className="animation overflow-hidden h-16">
-                  <div className="first text-5xl text-primary font-bold  flex justify-center items-center mb-[4.5rem] h-16 w-fit">
-                    <div>
-                      &nbsp;MITHUN KARTHICK
-                    </div>
+                <section className="animation overflow-hidden md:h-16 h-32">
+                  <div className="first text-5xl text-center text-primary font-bold  flex justify-center items-center md:mb-[4.5rem] md:h-16 w-fit  h-32 ">
+                      <span className="flex justify-center px-5">
+                      &nbsp;Mithun Karthick</span>
                   </div>
-                  <div className="second text-5xl text-primary font-bold  flex justify-center items-center  mb-[4.5rem] h-16 v">
+                  <div className="second text-5xl text-primary font-bold  flex justify-center items-center  md:mb-[4.5rem] md:h-16 px-1 h-32 w-fit mb-[2rem]">
                     <div>
                       Full Stack Developer
                     </div>
                   </div>
-                  <div className="third text-5xl text-primary font-bold  flex justify-center items-center p-2  h-16 w-fit">
+                  <div className="third text-5xl text-primary font-bold  flex justify-center items-center p-2  md:h-16   h-32 md:mb-[5rem]">
                     <div>
                       Cybersecurity Analyst
                     </div>
@@ -71,8 +70,8 @@ export const LandingPage = () => {
                 </section>
               </div>
             </div>
-            <div className="mt-8">
-              <span className="border-2 border-primary rounded-3xl p-2">Full-stack developer & cybersecurity analyst</span>
+            <div className="relative md:mt-8 mt-32">
+              {/* <span className="border-2 border-primary rounded-3xl p-2">Full-stack developer & cybersecurity analyst</span> */}
             </div>
             <div className="mt-12 flex justify-between w-[70%] ">
               <div className="flex border-2 border-primary rounded-3xl p-2">
