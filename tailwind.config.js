@@ -17,7 +17,6 @@ export default {
       },
       dropShadow: {
         '3xl': '8px 8px 4px #1DB954',
-        'img': '8px 8px 4px #1DB954',
         '2xl': '2px 2px 4px #1DB954',
       },
       colors:{
