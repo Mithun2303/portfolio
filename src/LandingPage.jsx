@@ -8,11 +8,11 @@ import { Footer } from "./Footer";
 
 export const LandingPage = () => {
   return (
-    <main className="main h-fit bg-">
+    <main className="main ">
       <Navbar />
       <Home id="home" style={{overflowY: "scroll",
-                    height: "800px",}} />
-     <About id="about"/>
+                    height: "90vh",}} />
+     <About id="about" className="h-[90vh]"/>
       {/* <Footer /> */}
     </main>
   )

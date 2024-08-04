@@ -2,7 +2,7 @@
 import profile from "./assets/profile.png";
 export const Home = () => {
   return (
-    <div className="main-inner">
+    <div className="main-inner h-[90vh]">
       <section className=" md:min-h-[90vh] h-[90vh] flex-col-reverse flex md:flex-row-reverse md:justify-between md:transition-mild z-0" id="home">
         <div className="image-wrapper md:flex flex md:w-[50%] w-[100%] justify-center items-center">
           <div className="image-container top-12 absolute md:top-0 ">
@@ -33,10 +33,10 @@ export const Home = () => {
               </section>
             </div>
           </div>
-          <div className="relative md:mt-8 z-10">
+          <div className="relative md:mt-8 z-10 ">
             {/* <span className="border-2 border-primary rounded-3xl p-2">Full-stack developer & cybersecurity analyst</span> */}
           </div>
-          <div className="mt-12 flex justify-between w-[70%] ">
+          <div className="mt-12 flex justify-between w-[70%] mb-16 ">
             <a className="flex border-2 border-textColor drop-shadow-sm hover:border-primary text-textColor hover:text-primary rounded-3xl p-2 stroke-textColor hover:stroke-primary" href="https://docs.google.com/document/d/19aqOnmLk7UfeLVrWFbxvOEsbu1rJVyqlIJkplbdACTY/edit" target="_blank">
               <span className=" ">Resume&nbsp;&nbsp;</span>
               <svg width="25" height="22" viewBox="0 0 37 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="">
