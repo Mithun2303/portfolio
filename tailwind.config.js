@@ -16,11 +16,14 @@ export default {
         poppins: "'Poppins'",
       },
       dropShadow: {
-        '3xl': '8px 8px 4px #1DB954',
-        '2xl': '2px 2px 4px #1DB954',
+        '3xl': '8px 8px 4px #FF8B36',
+        '2xl': '2px 2px 4px #FF8B36',
+        'image': '2px 2px 4px #000',
       },
       colors:{
-        primary:"#1DB954",
+        primary:"#FF8B36",
+        primaryText:"#FF8B36",
+        textColor:"#000"
       },
       transitionProperty:{
         

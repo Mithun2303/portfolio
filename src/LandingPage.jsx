@@ -4,14 +4,16 @@ import profile from "./assets/profile.png";
 import { Navbar } from "./Navbar";
 import { Home } from "./Home";
 import  About  from "./About";
+import { Footer } from "./Footer";
 
 export const LandingPage = () => {
   return (
-    <main className="main h-fit bg-black">
+    <main className="main h-fit bg-">
       <Navbar />
-      <Home />
-     <About />
-
+      <Home id="home" style={{overflowY: "scroll",
+                    height: "800px",}} />
+     <About id="about"/>
+      {/* <Footer /> */}
     </main>
   )
 };
