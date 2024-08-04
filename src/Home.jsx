@@ -3,29 +3,29 @@ import profile from "./assets/profile.png";
 export const Home = () => {
   return (
     <div className="main-inner">
-      <section className=" md:min-h-[90vh] h-[90vh] flex md:flex-row-reverse md:justify-between md:transition-mild z-0" id="home">
-        <div className="image-wrapper md:flex hidden md:w-[50%]  justify-center items-center">
-          <div className="image-container">
-            <img src={profile} alt="" className=" object-contain h-[90vh] drop-shadow-image" />
+      <section className=" md:min-h-[90vh] h-[90vh] flex-col-reverse flex md:flex-row-reverse md:justify-between md:transition-mild z-0" id="home">
+        <div className="image-wrapper md:flex flex md:w-[50%] w-[100%] justify-center items-center">
+          <div className="image-container top-12 absolute md:top-0 ">
+            <img src={profile} alt="" className=" object-contain md:h-[90vh] h-[40vh]  drop-shadow-image" />
           </div>
         </div>
-        <div className="md:w-[50%] md:relative md:mt-32 relative -top-20 text-primaryText flex flex-col justify-center items-center">
+        <div className="md:w-[50%] md:my-0 my-auto md:relative md:mt-32 relative md:-top-20 text-primaryText flex flex-col justify-center items-center">
           <div className="text-center">
             <h1 className="text-2xl font-semibold flex justify-center text-[rgb(0,0,0,0.7)] ">
               Hello&nbsp;<span className="text-2xl ">I'm</span>
             </h1>
-            <div className="md:flex gap-x-0 items-center justify-center h-16">
+            <div className="md:flex gap-x-0 items-center justify-center h-16 z-0">
               <section className="animation overflow-hidden md:h-16 h-32">
-                <div className="first text-5xl text-center text-primary font-bold mx-8 flex justify-center items-center md:mb-[4.5rem] md:h-16 w-fit  h-32 ">
+                <div className="first text-5xl text-center text-primary font-bold mx-8 flex justify-center items-center md:mb-[4.5rem] md:h-16 w-fit mb-24 ">
                   <span className="flex justify-center px-5">
                     &nbsp;Mithun Karthick</span>
                 </div>
-                <div className="second text-5xl text-primary font-bold text-center flex justify-center items-center  md:mb-[4.5rem] md:h-16 mx-6 h-32 w-fit mb-[2rem]">
+                <div className="second text-5xl text-primary font-bold text-center flex justify-center items-center  md:mb-[4.5rem] md:h-16 mx-6  w-fit mb-32">
                   <div>
                     Full Stack Developer
                   </div>
                 </div>
-                <div className="third text-5xl text-primary font-bold  flex justify-center items-center p-2  md:h-16   h-32 md:mb-[5rem]">
+                <div className="third text-5xl text-primary font-bold  flex justify-center items-center p-2  md:h-16  md:mb-[5rem]">
                   <div>
                     Cybersecurity Analyst
                   </div>
@@ -33,7 +33,7 @@ export const Home = () => {
               </section>
             </div>
           </div>
-          <div className="relative md:mt-8 mt-32">
+          <div className="relative md:mt-8 z-10">
             {/* <span className="border-2 border-primary rounded-3xl p-2">Full-stack developer & cybersecurity analyst</span> */}
           </div>
           <div className="mt-12 flex justify-between w-[70%] ">

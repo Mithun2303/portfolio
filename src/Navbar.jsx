@@ -10,7 +10,7 @@ export const Navbar = () => {
     };
     window.addEventListener("scroll", changeNavbarColor);
   return(
-    <section className={`h-[15vh] bg-blck ${colorChange?"bg-textColor":"bg-white"} flex justify-between px-24  ${colorChange?"text-white":"text-textColor"} sticky top-0  z-30`}>
+    <section className={`md:h-[15vh] h-[10vh] bg-blck ${colorChange?"bg-textColor":"bg-white"} flex justify-between px-24  ${colorChange?"text-white":"text-textColor"} sticky top-0  z-30`}>
         <div className="md:flex md:items-center md:h-full flex md:mx-24 justify-center items-center w-full md:w-fit">
           <h1 className="text-primary md:text-4xl text-3xl font-bold calligraffitti-regular">
             Welcome!
