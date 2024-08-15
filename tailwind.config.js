@@ -18,12 +18,13 @@ export default {
       dropShadow: {
         '3xl': '8px 8px 4px #FF8B36',
         '2xl': '2px 2px 4px #FF8B36',
+        'lg': '0px 0px 4px #010101',
         'image': '2px 2px 4px #000',
       },
       colors:{
         primary:"#FF8B36",
-        primaryText:"#FF8B36",
-        textColor:"#000"
+        primaryText:"#D40C0C",
+        textColor:"#1e1e1e"
       },
       transitionProperty:{
         
