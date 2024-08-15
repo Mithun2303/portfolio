@@ -6,6 +6,7 @@ import { Home } from "./Home";
 import About from "./About";
 import { Footer } from "./Footer";
 import { TechStack } from "./TechStack";
+import { Projects } from "./Projects";
 
 export const LandingPage = () => {
   return (
@@ -13,7 +14,8 @@ export const LandingPage = () => {
       <Navbar />
       <Home id="home" className="h-[90vh] overflow-y-scroll" />
       <About id="about" className="h-[90vh]" />
-      <TechStack id="about" className="h-[90vh] bg-white" />
+      <TechStack id="tech" className="h-[90vh] " />
+      <Projects id="project" className="h-[90vh]" />
       {/* <Footer /> */}
     </main>
   )

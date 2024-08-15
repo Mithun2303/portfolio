@@ -14,7 +14,7 @@ export const Home = () => {
             <h1 className="text-2xl font-semibold flex justify-center text-white ">
               Hello&nbsp;<span className="text-2xl ">I'm</span>
             </h1>
-            <div className="md:flex gap-x-0 items-center justify-center h-12 z-0 mb-24">
+            <div className="md:flex gap-x-0 items-center justify-center h-12 z-0 mb-24 md:mb-4">
               <section className="animation overflow-hidden md:h-16 h-32">
                 <div className="first text-5xl text-center text-primary font-bold mx-8 flex justify-center items-center md:mb-[4.5rem] md:h-16 w-fit mb-28">
                   <span className="flex justify-center px-5">

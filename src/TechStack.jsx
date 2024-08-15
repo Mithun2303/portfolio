@@ -12,7 +12,7 @@ import docker from "./assets/docker.svg"
 export const TechStack = () => {
     return (
         <main className="main-inner  md:p-[10vh] md:h-[90vh]">
-            <div className="flex flex-col gap-12 justify-center  text-4xl font-semibold font-poppins items-center  ">
+            <section id="tech" className="flex flex-col gap-12 justify-center  text-4xl font-semibold font-poppins items-center  ">
                 <div className="text-primary">
                     My Tech Stack
                 </div>
@@ -30,7 +30,7 @@ export const TechStack = () => {
                     <img src={docker} alt="" className="w-[100px] drop-shadow-lg"/>
 
                 </div>
-            </div>
+            </section>
         </main>
     )
 }
