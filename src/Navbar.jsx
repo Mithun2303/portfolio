@@ -37,11 +37,11 @@ export const Navbar = () => {
             Projects
           </span>
         </a>
-        <div>
+        <a href="#contact">
           <span className={`text-xl font-semibold font-poppins ${colorChange ? "text-white" : "text-white"} hover:underline `}>
             Contact me!
           </span>
-        </div>
+        </a>
       </div>
     </section>
   )

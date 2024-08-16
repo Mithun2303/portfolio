@@ -16,7 +16,7 @@ export const LandingPage = () => {
       <About id="about" className="h-[90vh]" />
       <TechStack id="tech" className="h-[90vh] " />
       <Projects id="project" className="h-[90vh]" />
-      {/* <Footer /> */}
+      <Footer id="connect" className="h-[90vh]"/>
     </main>
   )
 };

@@ -1,8 +1,8 @@
 import profile from "./assets/profile\ copy.jpeg"
 export default function About() {
     return (
-        <div className="main-inner  md:mt-6 md:mb-16">
-            <section id="about" className=" md:min-h-[90vh] h-[90vh] flex md:flex-row md:justify-between md:transition-mild z-0" >
+        <div className="main-inner  md:mt-6 md:mb-16 md:pt-12">
+            <section id="about" className=" md:min-h-[90vh] h-[90vh] flex md:flex-row md:justify-between md:transition-mild z-0 " >
                 <div className="image-wrapper md:flex hidden md:w-[50%]  justify-center items-center">
                     <div className="border-8 md:h-[62.5vh] left-20 -top-8 md:w-[27.5vw] relative border-primary"></div>
                     <div className="image-container absolute ">

@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './components/ProjectCard'
-
+import groovehub from "./assets/groovehub.jpeg"
+import proleap from "./assets/proleap.jpeg"
 export const Projects = () => {
     return (
         <main className='main-inner  md:p-[10vh] md:h-[90vh] mt-12 mb-24 md:mb-0'>
@@ -16,20 +17,23 @@ export const Projects = () => {
                         techStack="ReactJS, ExpressJS, MongoDB, PostgreSQL"
                         livePreview="https://leetcode.com/u/mithunkarthick1610"
                         code="https://github.com/mithun2303/groovehub"
+                        link={groovehub}
                     />
                     <ProjectCard
                         title="Proleap"
                         description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestiae explicabo sapiente iste delectus veniam voluptatem illum. Quod odio, animi veritatis delectus hic dolores doloremque. Nam sed aspernatur cum consectetur."
                         techStack="ReactJS, ExpressJS, MongoDB, PostgreSQL"
-                        livePreview="https://leetcode.com/u/mithunkarthick1610"
-                        code="https://github.com/mithun2303/groovehub"
+                        livePreview="https://proleap.vercel.app"
+                        link={proleap}
+                        code="https://github.com/EWhizard/proleap-frontend"
                     />
                     <ProjectCard
                         title="Algostats"
                         description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt molestiae explicabo sapiente iste delectus veniam voluptatem illum. Quod odio, animi veritatis delectus hic dolores doloremque. Nam sed aspernatur cum consectetur."
                         techStack="ReactJS, ExpressJS, MongoDB, PostgreSQL"
                         livePreview="https://leetcode.com/u/mithunkarthick1610"
-                        code="https://github.com/mithun2303/groovehub"
+                        link={groovehub}
+                        code="https://github.com/mithun2303/algostats-backend"
                     />
                 </div>
             </section>
